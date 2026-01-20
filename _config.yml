@@ -11,8 +11,8 @@ url: "https://lumunate.github.io/airbot-documentation" # Change to your GitHub P
 # Theme
 remote_theme: just-the-docs/just-the-docs
 
-# Color scheme (custom dark theme optimized for Airbot documentation)
-color_scheme: airbot-dark
+# Color scheme
+color_scheme: light
 
 # Logo (optional - add if you have a logo image)
 # logo: "/assets/images/logo.png"
