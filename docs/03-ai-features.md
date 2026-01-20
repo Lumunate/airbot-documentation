@@ -1,3 +1,10 @@
+---
+layout: default
+title: AI Features & Agent System
+nav_order: 4
+description: "Comprehensive documentation of Airbot's AI system, configuration, and agent behavior"
+---
+
 # AIRBOT DOCUMENTATION: AI Features & Agent System
 
 ## Overview

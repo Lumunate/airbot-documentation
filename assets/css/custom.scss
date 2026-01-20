@@ -1,0 +1,170 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Custom styles for Airbot documentation dark theme
+
+// Enhanced code blocks
+.highlight {
+  background-color: #1e1e1e !important;
+  border: 1px solid #333 !important;
+  border-radius: 6px;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+pre code {
+  background-color: transparent !important;
+  color: #d4d4d4 !important;
+}
+
+// Better table styling in dark mode
+table {
+  background-color: #1a1a1a !important;
+  border: 1px solid #333 !important;
+
+  th {
+    background-color: #262626 !important;
+    color: #ffffff !important;
+    font-weight: 600;
+    border-bottom: 2px solid #60a5fa !important;
+  }
+
+  td {
+    border: 1px solid #2d2d2d !important;
+  }
+
+  tr:hover {
+    background-color: #242424 !important;
+  }
+}
+
+// Enhanced link styling
+a {
+  color: #60a5fa !important;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #93c5fd !important;
+    text-decoration: underline;
+  }
+}
+
+// Arrow indicators for links
+.main-content a[href$=".md"]::after {
+  content: " →";
+  color: #60a5fa;
+  font-weight: bold;
+}
+
+// Sidebar styling
+.side-bar {
+  background-color: #0d0d0d !important;
+  border-right: 1px solid #2d2d2d !important;
+}
+
+// Navigation links in sidebar
+.navigation,
+.navigation-list {
+  a {
+    color: #d0d0d0 !important;
+
+    &:hover {
+      background-color: #1a1a1a !important;
+      color: #ffffff !important;
+    }
+  }
+}
+
+// Active navigation item
+.navigation-list-item.active > a {
+  background-color: #1a1a1a !important;
+  color: #60a5fa !important;
+  font-weight: 600;
+  border-left: 3px solid #60a5fa;
+}
+
+// Search box
+.search-input {
+  background-color: #262626 !important;
+  border: 1px solid #404040 !important;
+  color: #ffffff !important;
+
+  &:focus {
+    border-color: #60a5fa !important;
+    outline: none;
+  }
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+// Better blockquote styling
+blockquote {
+  background-color: #1e1e1e !important;
+  border-left: 4px solid #60a5fa !important;
+  padding: 0.5em 1em !important;
+  margin: 1em 0 !important;
+  color: #d0d0d0 !important;
+}
+
+// Code inline
+code {
+  background-color: #262626 !important;
+  color: #f0f0f0 !important;
+  padding: 0.2em 0.4em !important;
+  border-radius: 3px !important;
+  font-size: 0.9em !important;
+  border: 1px solid #333 !important;
+}
+
+// Horizontal rules
+hr {
+  border-color: #333 !important;
+  margin: 2em 0 !important;
+}
+
+// Main content area
+.main-content {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
+
+// Footer
+.site-footer {
+  background-color: #0d0d0d !important;
+  border-top: 1px solid #2d2d2d !important;
+  color: #888 !important;
+}
+
+// Back to top button
+.back-to-top {
+  background-color: #60a5fa !important;
+  color: #000 !important;
+
+  &:hover {
+    background-color: #93c5fd !important;
+  }
+}
+
+// Improve readability
+p {
+  line-height: 1.7 !important;
+}
+
+// List styling
+ul, ol {
+  li {
+    margin-bottom: 0.5em;
+  }
+}
+
+// Document emoji
+.main-content h2:first-of-type {
+  margin-top: 0;
+}

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Feature Implementation Analysis
+nav_order: 7
+description: "Cross-codebase analysis of feature implementation status and gaps"
+---
+
 # AIRBOT DOCUMENTATION: Feature Implementation Analysis
 
 ## Overview

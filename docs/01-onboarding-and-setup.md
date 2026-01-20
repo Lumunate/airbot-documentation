@@ -1,3 +1,10 @@
+---
+layout: default
+title: Onboarding & Setup
+nav_order: 2
+description: "Complete guide to user registration, subscription management, workspace creation, and platform setup"
+---
+
 # AIRBOT DOCUMENTATION: Onboarding & Setup
 
 ## Overview

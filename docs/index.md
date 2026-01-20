@@ -1,3 +1,11 @@
+---
+layout: home
+title: Home
+nav_order: 1
+description: "Comprehensive technical documentation for the Airbot vacation rental management platform"
+permalink: /
+---
+
 # Airbot Documentation
 
 Welcome to the Airbot platform documentation. This comprehensive guide covers the complete technical architecture, business logic, and implementation details of the Airbot vacation rental management system.
@@ -6,9 +14,24 @@ Welcome to the Airbot platform documentation. This comprehensive guide covers th
 
 Airbot is an AI-powered vacation rental management platform that helps property managers automate guest communications, manage listings across multiple PMS platforms, and drive additional revenue through intelligent upsell offers.
 
+---
+
+## 📚 All Documentation Pages
+
+| # | Page | Description |
+|---|------|-------------|
+| 1 | [**Onboarding & Setup** →](01-onboarding-and-setup.md) | User registration, subscriptions, and platform setup |
+| 2 | [**Access Control & Permissions** →](02-access-control.md) | Role-based access control (RBAC) system |
+| 3 | [**AI Features & Agent System** →](03-ai-features.md) | AI configuration, agents, and knowledge base |
+| 4 | [**Upsell System Analysis** →](04-upsell-system-analysis.md) | Automated upsell triggers and scheduling |
+| 5 | [**Business Logic** →](05-business-logic.md) | Core business flows and revenue model |
+| 6 | [**Feature Implementation Analysis** →](06-feature-implementation-analysis.md) | Cross-codebase implementation status |
+
+---
+
 ## Documentation Index
 
-### [1. Onboarding & Setup](01-onboarding-and-setup.md)
+### [1. Onboarding & Setup →](01-onboarding-and-setup.md)
 Complete guide to user registration, subscription management, workspace creation, and platform setup. Covers the end-to-end onboarding flow from initial signup to full platform utilization.
 
 **Topics covered:**
@@ -19,7 +42,7 @@ Complete guide to user registration, subscription management, workspace creation
 
 ---
 
-### [2. Access Control & Permissions](02-access-control.md)
+### [2. Access Control & Permissions →](02-access-control.md)
 Detailed explanation of the role-based access control (RBAC) system. Understand the five user roles (OWNER, ADMIN, MANAGER, MEMBER, VIEWER) and their permissions across different platform features.
 
 **Topics covered:**
@@ -30,7 +53,7 @@ Detailed explanation of the role-based access control (RBAC) system. Understand 
 
 ---
 
-### [3. AI Features & Agent System](03-ai-features.md)
+### [3. AI Features & Agent System →](03-ai-features.md)
 Comprehensive documentation of Airbot's AI system, including configuration options, agent behavior, and knowledge base management.
 
 **Topics covered:**
@@ -41,7 +64,7 @@ Comprehensive documentation of Airbot's AI system, including configuration optio
 
 ---
 
-### [4. Upsell System Analysis](04-upsell-system-analysis.md)
+### [4. Upsell System Analysis →](04-upsell-system-analysis.md)
 Technical deep-dive into the automated upsell system. Covers trigger conditions, scheduling logic, edge case handling, and real-world scenario testing.
 
 **Topics covered:**
@@ -53,7 +76,7 @@ Technical deep-dive into the automated upsell system. Covers trigger conditions,
 
 ---
 
-### [5. Business Logic](05-business-logic.md)
+### [5. Business Logic →](05-business-logic.md)
 Analysis of core business flows including authentication, payment processing, PMS integration, and the upsells revenue model.
 
 **Topics covered:**
@@ -64,7 +87,7 @@ Analysis of core business flows including authentication, payment processing, PM
 
 ---
 
-### [6. Feature Implementation Analysis](06-feature-implementation-analysis.md)
+### [6. Feature Implementation Analysis →](06-feature-implementation-analysis.md)
 Cross-codebase analysis identifying implementation status of features across Frontend, Backend, and AI services.
 
 **Topics covered:**
@@ -85,10 +108,10 @@ Cross-codebase analysis identifying implementation status of features across Fro
 ## Getting Started
 
 If you're new to the Airbot platform:
-1. Start with [Onboarding & Setup](01-onboarding-and-setup.md) to understand the user journey
-2. Review [Access Control](02-access-control.md) to understand permissions
-3. Deep-dive into [AI Features](03-ai-features.md) for the core platform capabilities
-4. Explore [Upsell System](04-upsell-system-analysis.md) for revenue generation features
+1. Start with [Onboarding & Setup →](01-onboarding-and-setup.md) to understand the user journey
+2. Review [Access Control →](02-access-control.md) to understand permissions
+3. Deep-dive into [AI Features →](03-ai-features.md) for the core platform capabilities
+4. Explore [Upsell System →](04-upsell-system-analysis.md) for revenue generation features
 
 ---
 

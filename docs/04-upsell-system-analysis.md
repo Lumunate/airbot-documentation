@@ -1,3 +1,10 @@
+---
+layout: default
+title: Upsell System Analysis
+nav_order: 5
+description: "Technical deep-dive into the automated upsell system with triggers and scheduling logic"
+---
+
 # AIRBOT DOCUMENTATION: Upsell System Analysis
 
 ## Executive Summary

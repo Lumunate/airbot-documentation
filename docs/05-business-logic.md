@@ -1,3 +1,10 @@
+---
+layout: default
+title: Business Logic
+nav_order: 6
+description: "Analysis of core business flows including authentication, payment, and PMS integration"
+---
+
 # Airbot - Business Logic Analysis
 
 ## Executive Summary

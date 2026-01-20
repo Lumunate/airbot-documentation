@@ -1,3 +1,10 @@
+---
+layout: default
+title: Access Control & Permissions
+nav_order: 3
+description: "Detailed explanation of the role-based access control (RBAC) system and user permissions"
+---
+
 # AIRBOT DOCUMENTATION: Access Control & Permissions
 
 ## Overview
